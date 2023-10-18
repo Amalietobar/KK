@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#f8f2e3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f8f2e3;
+    color: #ed4065;
+    padding: 10px 20px;
+    font-family: "DIN Condensed", sans-serif; 
+}
+
+    /* Style for søgefeltet */
+    #search-box {
+      margin-right: 10px;
+      background-color: #f8f2e3;
+      color: #ffffff;
+      border-color: #ed4065;
+    }
+
+    #search-button {
+      margin-right: 10px;
+      background-color: #f8f2e3;
+      color: #ed4065;
+      border-color: #ed4065;
+    }
+  
+
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ed4065;
+    font-size: 20px; /* Ændrer skriftstørrelsen til 18 pixels (juster efter behov) */
+}
+
+/* Dropdown-menuer bliver skjulte som standard */
+nav ul li ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+}
+
+/* Vis dropdown-menuen, når hover eller klik på overmenuen */
+nav ul li:hover ul.dropdown-menu {
+    display: block;
+}
+
+/* Stil for dropdown-menu */
+nav ul li ul.dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ed4065;
+}
+
+nav ul li ul.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+nav ul li ul.dropdown-menu a {
+    color: #ed4065;
+    text-decoration: none;
+    display: block;
+}
+
+.welcome-section {
+    margin-top: 100px; /* Tilføjer 20 pixels mellem menuen og velkomstteksten ) */
+    color: #ed4065;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: "DIN Condensed", sans-serif; 
+}
+.undertekst {
+    background-color: #f8f2e3;
+  text-align: justify;
+  letter-spacing: 3px;
+  width: 1000px;
+  padding: 20px;
+  font-size: 150%;
+  margin: 0 auto; 
+  text-indent: 50px;
+}
+.image-section img {
+    max-width: 100%;  /* Billedet skal ikke overstige sin oprindelige størrelse */
+    height: auto;     /* Bevar billedets proportioner */
+    display: block;   /* Fjern eventuel overskydende plads omkring billedet */
+    margin: 0 auto;   /* Centrer billedet på skærmen (valgfrit) */
+    margin-bottom: 100px;
+
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    color: #fff;
+    font-family: "DIN Condensed", sans-serif; 
+    text-align: center;
+    line-height: 150px;
+    transition: background-color 0.3s;
+    background-color: #2926d8;
+    transition: background-color 0.3s;
+}
+
+.box:hover {
+    background-color: #ed4065
+}
+
+/* -------------------------------------------------------- Side 1 starter her -----------------------------------------------------------*/
+.overskrift2 {
+text-align: center;
+text-transform: uppercase;
+color: #2926d8;
+font-family: "DIN Condensed", sans-serif;
+font-size: 50px;
+}
+
+  .content2 {
+background-color:#f8f2e3;
+text-align: justify;
+letter-spacing: 3px;  
+border: 2px solid #2926d8;
+padding: 100px;
+margin: 80px;
+  }
+
+  .Bonusinfo {
+color: #ed4065;
+  }
+  .float-right {
+margin: 10px; /* Juster margenen efter behov */
+max-width: 100%;  /* Billedet skal ikke overstige sin oprindelige størrelse */
+display :flex;   /* Fjern eventuel overskydende plads omkring billedet */
+margin-bottom: 80px;
+height:auto;
+  }
+/* -------------------------------------------------------- Side 2 starter her -----------------------------------------------------------*/
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 10px;}
+  
+  /* Fake image */
+  .fakeimg {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .row {
+background-color:#f8f2e3;
+border: 2px solid #2926d8;
+text-align: justify;
+letter-spacing: 3px;  
+padding: 100px;
+margin: 200px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 35px;
+font-size: 16px;
+margin-top: auto;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+/* -------------------------------------------------------- Side 3 starter her -----------------------------------------------------------*/
+
+.byer {
+display: flex; /* Brug flexbox til at arrangere billederne ved siden af hinanden */
+}
+
+.byer img {
+  width: 95%; /* Del containerens bredde i fire lige store dele */
+  height: auto; /* Bevar billedets oprindelige højdeforhold */
+  margin: 5px; /* Tilføj en smule afstand mellem billederne (kan justeres) */
+}
+
+.byer-center {
+  display: flex;
+  justify-content: center; /* Center elementer horisontalt */
+  align-items: center; /* Center elementer vertikalt */
+  height: 100vh; /* Gør containeren 100% af viewportens højde for at centrere indholdet */
+}
+
+  /* ---------------------------------------------------Footer styling *----------------------------------------*/
+  footer {
+    text-align: center;
+    color: #ed4065;
+      border: 1px solid #2926d8;
+
+  }

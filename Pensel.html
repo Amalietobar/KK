@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grib en pensel</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"> <img src="logokk.png" alt="LOGO"></a>
+        </div>
+    
+
+        <nav>
+          <ul>
+            <li><a href="MAD.html">Mad Glad</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Grinern mad</a></li>
+                    <li><a href="#">Ud fra sæsonen </a></li>
+                    <li><a href="#">Billigt, nemt, lækkert</a></li>
+                </ul>
+            </li>
+            <li><a href="krea.html">Kreativitet</a>
+                <ul class="dropdown-menu">
+                    <li><a href="DIY.html">DIY</a></li>
+                    <li><a href="Pensel.html">Grib en pensel</a></li>
+                    <li><a href="#">Lær at sy</a></li>
+                </ul>
+            </li>
+            <li><a href="UIDB.html">Ud i det blå</a>
+              <ul class="dropdown-menu">
+                <li><a href="kenddinby.html">Kend dit område</a></li>
+                  <li><a href="#">Udfluger</a></li>
+              </ul>
+          </li>
+            <li><a href="#">Hjernebrydere</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Gåder</a></li>
+                    <li><a href="#">Jokes</a></li>
+                    <li><a href="#">Lær at trylle</a></li>
+                </ul>
+            </li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+
+        <div>
+            <input type="text" id="search-box" placeholder="SØG...">
+            <button id="search-button">SØG</button>
+        </div>
+
+    </header>
+
+    <script>
+        // JavaScript for at behandle søgefunktionen
+        const searchButton = document.getElementById("search-button");
+        const searchBox = document.getElementById("search-box");
+    
+        searchButton.addEventListener("click", function() {
+          const query = searchBox.value;
+          // Implementer søgefunktionalitet her, fx omdirigering til søgeresultatsiden
+          alert("Du søgte efter: " + query);
+        });
+    
+        searchBox.addEventListener("keydown", function(event) {
+          if (event.key === "Enter") {
+            const query = searchBox.value;
+            // Implementer søgefunktionalitet her, fx omdirigering til søgeresultatsiden
+            alert("Du søgte efter: " + query);
+          }
+        });
+      </script>
+
+
+    <div class="row">
+            <h1 class="overskrift2">SLIP PICASSO FRI - GRIB EN PENSEL</h1>
+            <img src="Fotovæg.png" alt="fotos" class="fakeimg">
+            <h4>Mal dig ud af kedsomhed.</h4>
+            <p>Kedsomhed er en følelse, vi alle oplever fra tid til anden. Det kan føles som en byrde, men det kan også være en uvurderlig mulighed for selvudtryk og personlig vækst. Én af de mest kreative måder at bekæmpe kedsomhed på er at male. At lade din fantasi flyde og udtrykke dine tanker og følelser gennem kunst er ikke kun en sjov aktivitet, men det har også en række terapeutiske fordele.</p>
+            <p>Når du maler, fokuserer du på opgaven foran dig, hvilket kan hjælpe med at aflede dine tanker fra kedsomhed og stress. Maling kan være en form for mindfulness, hvor du er fuldt til stede i øjeblikket. Denne dybt koncentrerede tilstand kan medvirke til at reducere stressniveauet og give dig en følelse af ro og afslapning.</p>
+            <h4>Skab kunst, når kedsomhed slår til</h4>
+            <p>Så næste gang kedsomhed melder sig, overvej at gribe en pensel og male dine tanker og følelser ud på lærredet. Du behøver ikke at være en professionel kunstner for at nyde fordelene ved at male. Uanset om det er abstrakt, realistisk eller noget midt imellem, er kunsten din legeplads, hvor du kan udforske og udtrykke dig selv. Så mal dig ud af kedsomhed og ind i en verden af kreativitet og terapi. Du vil opdage, at det ikke kun er en hobby, men en måde at berige dit liv på.</p>
+              <h2 class="overskrift2">Her er hvad du skal bruge!</h2>
+              <img src="malebrug.png" alt="fotos" class="fakeimg">
+              <h4>Akrylmaling, penselsæt og et malerlærred</h4>
+              <p> Farver sætter en stemning i hjemmet. Akrylmaling egner sig særdeles godt, da malingen tørrer hurtigt.Du kan desuden nemt blande de forskellige farver indbyrdes og opnå den helt rette farvetone. Man skal altid blande nok maling, da det er aldeles svært at ramme en eksakt farvetone to gange. Hvis man bruger pensler i forskellige størrelser, giver det frihed til at lege med forskellige teknikker og skabe forskellige mønstre. </p>
+            </div>
+
+    
+            
+  
+
+            <footer>
+                <p>Author: Amalie Sofie Tobar Petersen<br>
+                <a href="eaa23astp@students.eaaa.dk">eaa23astp@students.eaaa.dk</a></p>
+            </footer>
+        </body>
+        </html>

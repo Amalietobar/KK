@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hvorfor Være Kreativ?</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"> <img src="logokk.png" alt="LOGO"></a>
+        </div>
+    
+
+        <nav>
+          <ul>
+            <li><a href="MAD.html">Mad Glad</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Grinern mad</a></li>
+                    <li><a href="#">Ud fra sæsonen </a></li>
+                    <li><a href="#">Billigt, nemt, lækkert</a></li>
+                </ul>
+            </li>
+            <li><a href="krea.html">Kreativitet</a>
+                <ul class="dropdown-menu">
+                    <li><a href="DIY.html">DIY</a></li>
+                    <li><a href="Pensel.html">Grib en pensel</a></li>
+                    <li><a href="#">Lær at sy</a></li>
+                </ul>
+            </li>
+            <li><a href="UIDB.html">Ud i det blå</a>
+              <ul class="dropdown-menu">
+                <li><a href="kenddinby.html">Kend dit område</a></li>
+                  <li><a href="#">Udfluger</a></li>
+              </ul>
+          </li>
+            <li><a href="#">Hjernebrydere</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Gåder</a></li>
+                    <li><a href="#">Jokes</a></li>
+                    <li><a href="#">Lær at trylle</a></li>
+                </ul>
+            </li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+
+        <div>
+            <input type="text" id="search-box" placeholder="SØG...">
+            <button id="search-button">SØG</button>
+        </div>
+    </header>
+
+    <script>
+        // JavaScript for at behandle søgefunktionen
+        const searchButton = document.getElementById("search-button");
+        const searchBox = document.getElementById("search-box");
+    
+        searchButton.addEventListener("click", function() {
+          const query = searchBox.value;
+          // Implementer søgefunktionalitet her, fx omdirigering til søgeresultatsiden
+          alert("Du søgte efter: " + query);
+        });
+    
+        searchBox.addEventListener("keydown", function(event) {
+          if (event.key === "Enter") {
+            const query = searchBox.value;
+            // Implementer søgefunktionalitet her, fx omdirigering til søgeresultatsiden
+            alert("Du søgte efter: " + query);
+          }
+        });
+      </script>
+
+    
+    <div class="row"> 
+    <h1 class="overskrift2">NU ER DET KREA TID</h1>
+    <img src="kreakrea.png" alt="kreativ" class="float-right">
+
+    <h3>Hvorfor Være Kreativ?</h3>
+
+  
+    <p>Når kedsomheden begynder at tage overhånd, er det netop det rette tidspunkt til at lade kreativiteten blomstre. At være kreativ, selv når kedsomheden trænger sig på, kan have utallige fordele. Her er nogle grunde til, hvorfor det er en god idé at give slip på kreativiteten, når du har lidt fritid:</p>
+
+    <ul>
+     
+      <li><strong>Tidsfordriv:</strong> Når kedsomheden tager overhånd, kan kreativitet være den perfekte måde at fordrive tiden på. Du kan fordybe dig i et projekt eller en hobby, der ikke kun underholder dig, men også hjælper dig med at udvikle færdigheder.</li>
+      <br>
+      <li><strong>Inspiration:</strong> Kreativitet er som en kilde til inspiration. Når du udforsker nye ideer og skaber noget fra bunden, kan du finde inspiration til andre aspekter af dit liv. Det kan være en gnist, der tænder nye interesser eller ambitioner.</li>
+      <br>
+      <li><strong>Forbedrer humør:</strong> Kreativitet kan have en positiv indvirkning på dit humør. Det at skabe noget smukt eller meningsfuldt kan give dig en følelse af glæde og tilfredshed, hvilket er en glimrende måde at bekæmpe kedelig rutine.</li>
+    </ul>
+  
+    <p>Så næste gang du keder dig, skal du tage chancen for at være kreativ. Du behøver ikke være en professionel kunstner for at lade din kreativitet udfolde sig. Uanset om det er gennem kunst, håndværk, skrivning eller enhver anden form for udtryk, kan kreativiteten berige dit liv på mange måder og gøre kedsomhed til en mulighed for personlig vækst og glæde.</p>
+</div>
+
+    <div class="container1">
+        <div class="box" onclick="window.location.href='DIY.html'">
+            <h2>DIY</h2>
+        </div>
+        <div class="box" onclick="window.location.href='Pensel.html'">
+            <h2>Grib en Pensel</h2>
+        </div>
+        <div class="box" onclick="window.location.href='side4.html'">
+            <h2>Lær at sy</h2>
+        </div>
+        </div>
+    </div>
+ 
+        </div>
+    </div>
+    <footer>
+        <p>Author: Amalie Sofie Tobar Petersen<br>
+        <a href="eaa23astp@students.eaaa.dk">eaa23astp@students.eaaa.dk</a></p>
+    </footer>
+</body>
+</html>

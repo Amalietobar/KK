@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mad Glad</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"> <img src="logokk.png" alt="LOGO"></a>
+        </div>
+    
+
+        <nav>
+          <ul>
+            <li><a href="MAD.html">Mad Glad</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Grinern mad</a></li>
+                    <li><a href="#">Ud fra sæsonen </a></li>
+                    <li><a href="#">Billigt, nemt, lækkert</a></li>
+                </ul>
+            </li>
+            <li><a href="krea.html">Kreativitet</a>
+                <ul class="dropdown-menu">
+                    <li><a href="DIY.html">DIY</a></li>
+                    <li><a href="Pensel.html">Grib en pensel</a></li>
+                    <li><a href="#">Lær at sy</a></li>
+                </ul>
+            </li>
+            <li><a href="UIDB.html">Ud i det blå</a>
+              <ul class="dropdown-menu">
+                <li><a href="kenddinby.html">Kend dit område</a></li>
+                  <li><a href="#">Udfluger</a></li>
+              </ul>
+          </li>
+            <li><a href="#">Hjernebrydere</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Gåder</a></li>
+                    <li><a href="#">Jokes</a></li>
+                    <li><a href="#">Lær at trylle</a></li>
+                </ul>
+            </li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+
+        <div>
+            <input type="text" id="search-box" placeholder="SØG...">
+            <button id="search-button">SØG</button>
+        </div>
+
+    </header>
+
+    <script>
+        // JavaScript for at behandle søgefunktionen
+        const searchButton = document.getElementById("search-button");
+        const searchBox = document.getElementById("search-box");
+    
+        searchButton.addEventListener("click", function() {
+          const query = searchBox.value;
+          // Implementer søgefunktionalitet her, fx omdirigering til søgeresultatsiden
+          alert("Du søgte efter: " + query);
+        });
+    
+        searchBox.addEventListener("keydown", function(event) {
+          if (event.key === "Enter") {
+            const query = searchBox.value;
+            // Implementer søgefunktionalitet her, fx omdirigering til søgeresultatsiden
+            alert("Du søgte efter: " + query);
+          }
+        });
+      </script>
+
+    
+    <article class="row">
+    <h1 class="overskrift2">MAD GLAD</h1>
+    <img src="retter.png" alt="Dit billede" class="float-right">
+        <p>
+          <strong>Kender du det?</strong> Den truende kedsomhed, der pludselig griber fat i dig og skriger efter noget lækkert at spise? 
+          <p>Velkommen til et sted, hvor vi udforsker den utrolige verden af snacks og madlavning som en modgift mod kedsomhed.<strong>"MAD GLAD"</strong> inviterer dig til at træde ind i et univers fyldt med spændende smagsoplevelser, kreative opskrifter og spændende indsigter i, hvordan du kan forvandle kedelige øjeblikke til kulinariske eventyr.
+        <p>
+          Vores mission er at inspirere dig til at opleve nye smagsoplevelser og skabe lækre snacks, der hjælper dig med at bekæmpe kedsomhed på en sjov og velsmagende måde. 
+          <p>Uanset om du søger idéer til sundere snacks, ønsker at forvandle dine kedsomhedsspiserier til gastronomiske mesterværker eller bare er nysgerrig efter at udforske kulinariske eventyr, er siden her, for at guide dig.
+        <p>
+          Træd ind i vores verden af smagsoplevelser, opskrifter og køkkenkreativitet, og lad os sammen udforske, hvordan vi kan gøre kedsomhed til den perfekte undskyldning for at prøve nye retter og smagsoplevelser.
+        </p>
+        <p><strong>MEN HUSK ALTID PÅ:</strong></p>
+        <p> Kedsomhedsspisning... Vi har alle gjort det, og det vil ikke gøre dig betydelig skade en gang imellem, men hvis du føler, at du aldrig rigtig er sulten-sulten, så er det nok på tide at genoverveje, hvornår, hvad og hvorfor du spiser.</p>
+      <h3 class="Bonusinfo">Bonusinfo.</h3>
+      <i class="Bonusinfo">I Enten Eller skriver Søren Kierkegaard om kedsomhedens paradoks. Guderne skabte i kedsomhed mennesket, Adam, men han kedede sig også og skabte Eva, som også kedede sig, og sådan øgedes mængden af kedsomhed i verden.</i>
+    </article>
+
+     <div class="container1">
+        <div class="box" onclick="window.location.href='side1.html'">
+            <h2>Grineren mad</h2>
+        </div>
+        <div class="box" onclick="window.location.href='side2.html'">
+            <h2>Ud fra sæsonen</h2>
+        </div>
+        <div class="box" onclick="window.location.href='side3.html'">
+            <h2>Billigt, nemt, lækkert</h2>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Author: Amalie Sofie Tobar Petersen<br>
+        <a href="eaa23astp@students.eaaa.dk">eaa23astp@students.eaaa.dk</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kend dit område</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"> <img src="logokk.png" alt="LOGO"></a>
+        </div>
+    
+
+        <nav>
+          <ul>
+            <li><a href="MAD.html">Mad Glad</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Grinern mad</a></li>
+                    <li><a href="#">Ud fra sæsonen </a></li>
+                    <li><a href="#">Billigt, nemt, lækkert</a></li>
+                </ul>
+            </li>
+            <li><a href="krea.html">Kreativitet</a>
+                <ul class="dropdown-menu">
+                    <li><a href="DIY.html">DIY</a></li>
+                    <li><a href="Pensel.html">Grib en pensel</a></li>
+                    <li><a href="#">Lær at sy</a></li>
+                </ul>
+            </li>
+            <li><a href="UIDB.html">Ud i det blå</a>
+              <ul class="dropdown-menu">
+                <li><a href="kenddinby.html">Kend dit område</a></li>
+                  <li><a href="#">Udfluger</a></li>
+              </ul>
+          </li>
+            <li><a href="#">Hjernebrydere</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Gåder</a></li>
+                    <li><a href="#">Jokes</a></li>
+                    <li><a href="#">Lær at trylle</a></li>
+                </ul>
+            </li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+
+        <div>
+            <input type="text" id="search-box" placeholder="SØG...">
+            <button id="search-button">SØG</button>
+        </div>
+
+    </header>
+
+    <script>
+        // JavaScript for at behandle søgefunktionen
+        const searchButton = document.getElementById("search-button");
+        const searchBox = document.getElementById("search-box");
+    
+        searchButton.addEventListener("click", function() {
+          const query = searchBox.value;
+          // Implementer søgefunktionalitet her, fx omdirigering til søgeresultatsiden
+          alert("Du søgte efter: " + query);
+        });
+    
+        searchBox.addEventListener("keydown", function(event) {
+          if (event.key === "Enter") {
+            const query = searchBox.value;
+            // Implementer søgefunktionalitet her, fx omdirigering til søgeresultatsiden
+            alert("Du søgte efter: " + query);
+          }
+        });
+      </script>
+
+    <div class="welcome-section">
+        <h1>KEND DIN BY</h1>
+
+       <div class="undertekst">
+        <p>Aalborg, København, Odense og Aarhus er nogle af de mest spændende byer i Danmark. 
+        <p>Hver by har sin egen unikke karakter og tilbyder en bred vifte af kulturelle, rekreative 
+        <p>og gastronomiske oplevelser. Udforsk disse byer og lær dem bedre at kende!!</p></div> 
+    </div>
+    
+    <div class="byer">
+        <div class="byer-center">
+        <a href="aarhus.html">
+        <img src="AARHUS.png" alt="billde af byer">
+        <a href="side4.html">
+        <img src="KØBENHAVN.png" alt="billde af byer">
+        <a href="side4.html">
+        <img src="ODENSE.png" alt="billde af byer">
+        <a href="side4.html">
+        <img src="AALBORG.png" alt="billde af byer">
+    </a>
+    </div>
+    </div>
+  
+    <footer>
+        <p>Author: Amalie Sofie Tobar Petersen<br>
+        <a href="eaa23astp@students.eaaa.dk">eaa23astp@students.eaaa.dk</a></p>
+    </footer>
+</body>
+</html>
